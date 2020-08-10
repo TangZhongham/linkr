@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e3b49f1-1bcd-4c34-a0e9-90d9d3f11cb2" name="Default Changelist" comment="" />
+    <list default="true" id="5e3b49f1-1bcd-4c34-a0e9-90d9d3f11cb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +39,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,8 +68,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Cargo.toml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Run linkr" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -69,30 +108,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596791684996</updated>
-      <workItem from="1596791686523" duration="1050000" />
+      <workItem from="1596791686523" duration="5821000" />
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="798" height="280" key="GridCell.Tab.0.bottom" timestamp="1596794733625">
+    <state width="798" height="280" key="GridCell.Tab.0.bottom" timestamp="1597053167192">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1596794733625" />
-    <state width="798" height="280" key="GridCell.Tab.0.center" timestamp="1596794733624">
+    <state width="798" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597053167192" />
+    <state width="798" height="280" key="GridCell.Tab.0.center" timestamp="1597053167191">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1596794733624" />
-    <state width="798" height="280" key="GridCell.Tab.0.left" timestamp="1596794733623">
+    <state width="798" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597053167191" />
+    <state width="798" height="280" key="GridCell.Tab.0.left" timestamp="1597053167190">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1596794733623" />
-    <state width="798" height="280" key="GridCell.Tab.0.right" timestamp="1596794733624">
+    <state width="798" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597053167190" />
+    <state width="798" height="280" key="GridCell.Tab.0.right" timestamp="1597053167191">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1596794733624" />
+    <state width="798" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597053167191" />
     <state x="925" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1596794403834">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="925" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1596794403834" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
